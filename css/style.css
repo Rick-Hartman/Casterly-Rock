@@ -1,0 +1,133 @@
+html,
+body {
+    background-color: black;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.container {
+    background-color: #801906;
+}
+
+.header {
+    height: 150px;
+    margin: 0 5px 5px 5px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.lion {
+    float: left;
+    height: 145px;
+    width: 145px;
+    min-width: 145px;
+    background-color: black;
+    border: 3px double goldenrod;
+}
+
+.text-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 89.44%;
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 150px;
+    align-items: center;
+}
+
+.menu {
+    width: 99.6%;
+    min-height: 40px;
+    margin: 0 auto;
+    margin-top: 0px;
+    text-align: center;
+    height: auto;
+    background-color: black;
+    border: 3px double goldenrod;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    position: relative;
+    display: block;
+    margin: 5px 10px 1px 10px;
+    padding: 5px 5px;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+ul li a::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    background: #2196f3;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    color: goldenrod;
+    outline: 3px solid goldenrod;
+}
+
+.clear {
+    clear: both;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+}
+
+.left-menu {
+    width: 144px;
+    min-width: 144px;
+    margin: 5px;
+    background-color: #801906;
+    border: 3px double goldenrod;
+}
+
+.button {
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: #e1ac04;
+    border-radius: 7px;
+}
+
+.main {
+    margin: 5px 5px 5px 0px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: burlywood;
+    border: 3px double goldenrod;
+}
+
+.footer {
+    margin: 0 auto;
+    padding: 7px;
+    height: 6%;
+    background-color: darkgray;
+    outline: 1px solid black;
+    border: 4px double;
+}
